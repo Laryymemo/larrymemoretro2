@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" href="ICONO.png" type="image/x-icon">
+    <script type="text/javascript" src="retro2.js">
+    </script>
+    <meta charset="utf-8">
+    <title>Traductor IOTaxi</title>
+    <link rel="stylesheet" href="retro2.css">
+  </head>
+  <body>
+    <div id="divcero">
+      <img src="ICONO.png" width="100px"height="100px">
+    </div>
+    <div id="divuno">
+      Inicio de viaje  <input type="text" id="codenada1" placeholder="Dato 1">
+      Final de viaje  <input type="text" id="codenada2" placeholder="Dato 2">
+      <button onclick="inicio_viaje()" value="Enter">Crear ruta</button>
+    </div>
+    <div id="divdos">
+       <div id="resultados"><div id="resultado1"></div><div id="resultado2"></div>
+    </div>
+    <div id="resultadomaster"></div>
+    <div id="copias">
+       <div id="Copiar1"><button onclick="copiarAlPortapapeles('resultadomaster')">Copiar link</button></div></div>
+    <div id="viaje">
+      <input type="text" id="info" placeholder="Dato 3">
+      <div id="inf" onclick="info()">
+        <button type="button" name="button">Datos</button>
+      </div>
+    </div>
+    <div id="Datos">
+
+   </div>
+    <button onclick="copiarAlPortapapeles('Datos')">Copiar Datos</button>
+    <div id="divselec">
+      <div id="Choferes">
+        <select id="select1">
+         <option value="Tax-01">Tax-01</option>
+         <option value="Tax-02">Tax-02</option>
+         <option value="Tax-03">Tax-03</option>
+         <option value="Tax-04">Tax-04</option>
+         <option value="Tax-05">Tax-05</option>
+         <option value="Tax-06">Tax-06</option>
+         <option value="Tax-07">Tax-07</option>
+         <option value="Tax-08">Tax-08</option>
+         <option value="Tax-09">Tax-09</option>
+         <option value="Tax-10">Tax-10</option>
+        </select>
+      </div>
+    <div id="Datos1">
+         <button type="button" name="button"onclick="datos()">Ver info</button>
+    </div>
+  </div>
+    <div id="resultado4">
+
+    </div>
+
+   </body>
+  </html>

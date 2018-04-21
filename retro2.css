@@ -1,0 +1,112 @@
+/*#FFCC00*/
+body{
+  color: white;
+  background-color: black;
+  padding: 20px;
+}
+button{
+  border: 2px black solid;
+  background-color: #FFCC00;
+  color: black;
+}
+.result3{
+  width: 200px;
+}
+#espacio1{
+  width: 50px;
+  height: 20px;
+}
+#divcero{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+#resultadomaster{
+  height: 50px;
+  width: 500px;
+}
+#Money{
+  display: flex;
+}
+#distance{
+  display: flex;
+}
+#time{
+  display: flex;
+}
+#googlemen{
+  height: 200px;
+  height: 15px;
+}
+#googlebuscador{
+  border: 2px black solid;
+  background-color: #FFCC00;
+  color: black;
+}
+#resultado1{
+  color: white;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+#resultado2{
+  color: white;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+}
+#resultados{
+  display: flex;
+}
+#googles{
+  padding: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+}
+#google1{
+  height: auto;
+  width: auto;
+}
+#divselec{
+  display: flex;
+  padding: 10px;
+}
+#copias{
+  display: flex;
+  padding-bottom: 10px;
+}
+#Copiar1{
+  padding-left: 50px;
+}
+#Copiar2{
+  padding-left: 150px;
+}
+#select1{
+  background-color: #FFCC00;
+}
+#Datos{
+  height: 80px;
+  padding-top: 10px;
+}
+#Datos1{
+  padding-left: 10px;
+}
+#resultado3{
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+#inf{
+  padding-left: 10px;
+  height: auto;
+  width: 40px;
+}
+#viaje{
+  padding: 10px;
+  width: auto;
+  height: auto;
+  display: flex;
+}
